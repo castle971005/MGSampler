@@ -8,10 +8,10 @@ from .base import BaseDataset
 from .builder import DATASETS
 
 
-with open('/home/zhiyuan/mmaction2-master/img_diff_anet_train_final.json', 'r') as f:
+with open('/home/zhiyuan/img_diff_sthv1_train.json', 'r') as f:
     img_train = json.load(f)
 
-with open('/home/zhiyuan/mmaction2-master/img_diff_anet_val_final.json', 'r') as f:
+with open('/home/zhiyuan/img_diff_sthv1_val.json', 'r') as f:
     img_val = json.load(f)
 
 @DATASETS.register_module()
